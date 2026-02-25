@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles2026",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisandino2002/guia-hoteles2026.git"
+  },
+  "author": "Luis Andino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisandino2002/guia-hoteles2026/issues"
+  },
+  "homepage": "https://github.com/luisandino2002/guia-hoteles2026#readme"
+}
