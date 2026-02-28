@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="css/main.css">
     <title>Guia hoteles</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <h1>Guia Hoteles</h1>
     </div>   
     <div class="container">
-        <div class="row">
+        <div class="d-flex">
             <div class="col-sm-4">
                 <p>
                     <h3>¿Como Funciona?</h3>
@@ -35,29 +35,73 @@
 
         </div>
         <hr>
-        <div class="row">
-            <div class="col-sm-3">
-                <h4>Hotel Barcelona</h4>
-                <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa.</p>
-                <button class="btn">Reservar</button>
+        <div class="d-flex">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Barcelona</h4>
+                    <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa.</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary">Reservar</button>
+                </div>
+ 
             </div>
-            <div class="col-sm-3">
-                <h4>Hotel Buenos Aires</h4>
-                <p>Hotel ubicado en pleno centro</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Buenos Aires</h4>
+                    <p>Hotel ubicado en pleno centro</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h4>Hotel Lima</h4>
-                <p>Hotel ubicado en pleno centro</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Lima</h4>
+                    <p>Hotel ubicado en pleno centro</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h4>Hotel Rio de Janeiro</h4>
-                <p>Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
-                <button class="btn">Reservar</button>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Hotel Rio de Janeiro</h4>
+                    <p>Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instragram.com">Instagram</a>
+                <a href="https://www.twitter.com">Twitter</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    Tegucigalpa Honduras
+                    +504111111
+                    contacto@guitahoteles.com
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="https://www.facebook.com">Nosotros</a>
+                <a href="https://www.instragram.com">Precios</a>
+                <a href="https://www.twitter.com">Terminos y Condiciones</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
 
 
 
