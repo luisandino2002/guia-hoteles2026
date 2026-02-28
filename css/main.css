@@ -7,7 +7,7 @@ footer {
     padding: 10px 10px 0 10px;
     background-color: yellow;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .card-hotel{
@@ -20,4 +20,22 @@ footer {
     width: 100px;
     position: absolute;
 
+}
+
+.jumbotron { 
+    padding: 2rem 1rem; /* Espaciado interno */ 
+    margin-top: 50px;
+    margin-bottom: 2rem; /* Separación inferior */ 
+    background-color: yellow; /* Fondo gris claro */ 
+    border-radius: 0.3rem; /* Bordes redondeados */ 
+    } 
+    
+.jumbotron h1 { 
+    font-size: 3rem; /* Título grande */ 
+    font-weight: 300; /* Peso ligero */ 
+    line-height: 1.2; /* Altura de línea */ 
+    } 
+    
+.jumbotron p { 
+    font-size: 1.25rem; /* Texto más grande */ 
 }
