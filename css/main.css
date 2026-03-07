@@ -37,3 +37,8 @@ footer {
 .jumbotron p { 
     font-size: 1.25rem; /* Texto más grande */ 
 }
+
+.card-img-top {
+    height: 200px;       /* ajusta según lo que necesites */
+    width: 100%;         /* ocupa todo el ancho de la card */
+}
