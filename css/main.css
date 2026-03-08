@@ -42,3 +42,7 @@ footer {
     height: 200px;       /* ajusta según lo que necesites */
     width: 100%;         /* ocupa todo el ancho de la card */
 }
+
+.tab-content{
+    padding-top: 10px;
+}
