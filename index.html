@@ -116,6 +116,8 @@
                 <div class="card-body">
                     <h4 class="card-title">Hotel Rio de Janeiro</h4>
                     <p class="card-text">Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
+                    <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
+
                 </div>
                 <div>
                     <button class="btn btn-primary btn-reserva">Reservar</button>
@@ -123,6 +125,39 @@
             </div>
         </div>
     </div>
+
+
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contacto con el Hotel</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Tu Email</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="messageText" class="col-form-label">Mensaje</label>
+                                <textarea  class="form-control" id="messageText"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Enviar</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
 
 
     <footer>
