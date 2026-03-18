@@ -142,7 +142,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Hotel Rio de Janeiro</h4>
                     <p class="card-text">Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
-                    <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
+                    <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto" id="contactoBtn">Contacto</button>
 
                 </div>
                 <div>
@@ -225,9 +225,21 @@
 <script>
     var myCarousel = document.querySelector('#carouselControls')
     var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 1100, // 3 segundos
-    ride: 'carousel'
-})
+        interval: 1100, // 3 segundos
+        ride: 'carousel'
+    })
+
+    var contactoModal = document.getElementById('contacto');
+    var boton =document.getElementById('contactoBtn');
+    contactoModal.addEventListener('show.bs.modal', function (event) {
+        console.log('El modal se está mostrando');
+        boton.disabled=true;
+    })
+    contactoModal.addEventListener('hide.bs.modal', function (event) {
+        console.log('El modal se está oculantdo');
+        boton.disabled=false;
+    })
+
 </script>
 
 
