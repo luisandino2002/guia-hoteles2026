@@ -1,0 +1,59 @@
+$yellow:#e0e66e;
+
+@mixin margenes($top, $botton){
+    margin-top: $top;
+    margin-bottom: $botton;
+}
+
+.jumbotron{
+    background-color: $yellow;
+    color: black;
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: $yellow;
+    @include margenes(50px,0px );
+
+    // margin-bottom: 0px;
+    // margin-top: 50px;
+}
+
+.card-hotel{
+    flex:1 200px;
+    //margin-top: 10px;
+    @include margenes(10px,0)
+}
+
+.btn-reserva{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.jumbotron { 
+    padding: 2rem 1rem; /* Espaciado interno */ 
+    @include margenes(50px,2rem);
+//    margin-top: 50px;
+ //   margin-bottom: 2rem; /* Separación inferior */ 
+    background-color: yellow; /* Fondo gris claro */ 
+    border-radius: 0.3rem; /* Bordes redondeados */ 
+    } 
+    
+.jumbotron h1 { 
+    font-size: 3rem; /* Título grande */ 
+    font-weight: 300; /* Peso ligero */ 
+    line-height: 1.2; /* Altura de línea */ 
+    } 
+    
+.jumbotron p { 
+    font-size: 1.25rem; /* Texto más grande */ 
+}
+
+.card-img-top {
+    height: 200px;       /* ajusta según lo que necesites */
+    width: 100%;         /* ocupa todo el ancho de la card */
+}
+
+.tab-content{
+    padding-top: 10px;
+}
