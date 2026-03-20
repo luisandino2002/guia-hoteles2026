@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-	"scss": "sass scss:css",
-  "scss:watch": "sass --watch scss:css"
+    "scss": "sass scss:css",
+	"less": "lessc less/styles.less css/styles2.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/luisandino2002/guia-hoteles2026#readme",
   "devDependencies": {
+    "less": "^4.6.4",
     "lite-server": "^2.6.1",
     "sass": "^1.98.0"
   },
